@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         GeometryReader { _ in
-            
+     
             Path { path in // Road
                 path.move(to: CGPoint(x: 140, y: 0 ))
                 path.addLine(to: CGPoint(x: 260, y: 0 ))
